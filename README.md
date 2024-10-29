@@ -40,7 +40,7 @@
     ```sh
     npx hardhat node
     ```
-    ** NOTE: all the transactions, accounts will be listed here so keep an eye on this terminal ** 
+    **NOTE: all the transactions, accounts will be listed here so keep an eye on this terminal** 
 5. In a separate terminal, deploy the contract to localhost from the root directory:
     ```sh
     npx hardhat run scripts/deploy.js --network localhost
