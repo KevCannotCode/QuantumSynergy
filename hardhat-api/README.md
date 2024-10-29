@@ -12,9 +12,9 @@
 
 ### Setup Node.js Server
 
-1. Navigate to `hardhat-api`:
+1. Navigate to `root/backend`:
     ```sh
-    cd hardhat-api
+    cd root/backend
     ```
 2. Install dependencies:
     ```sh
@@ -57,9 +57,6 @@
     ```sh
     npx hardhat test
     ```
-### Debugger
-    You can use the debugger uploaded in the vsode directory to put breakpoints in the server.js file
-
 ### Postman
     When the server is running here is how you can interact with the server and the blockchain.
  
