@@ -40,28 +40,30 @@
     ```sh
     npx hardhat node
     ```
-    **NOTE: all the transactions, accounts will be listed here so keep an eye on this terminal** 
-5. In a separate terminal, deploy the contract to localhost from the root directory:
+    **NOTE: all the transactions, accounts will be listed here so keep an eye on this terminal**
+   
+6. In a separate terminal, deploy the contract to localhost from the root directory:
     ```sh
     npx hardhat run scripts/deploy.js --network localhost
     ```
-6. Start the Node.js server:
+7. Start the Node.js server:
     ```sh
     cd backend
     npm start
     ```
 
 ## Testing
-    In case you need to test the smart contract, you can use a prewritten test script.
+   - In case you need to test the smart contract, you can use a prewritten test script.
+    
 1. Test smart contracts:
     ```sh
     npx hardhat test
     ```
 ### Debugger
-    You can use the debugger uploaded in the vsode directory to put breakpoints in the server.js file
+   - You can use the debugger uploaded in the vsode directory to put breakpoints in the server.js file
 
 ### Postman
-    When the server is running here is how you can interact with the server and the blockchain.
+   - When the server is running here is how you can interact with the server and the blockchain.
  
 1. Test if the server is listening:
     ```http
